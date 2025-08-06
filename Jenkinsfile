@@ -1,9 +1,7 @@
 pipeline
 {
 
-  agent {
-    label 'devserver'
-  }
+  agent any
 
   tools {
     maven 'mymaven'
